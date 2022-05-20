@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="#0095cd"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/bg"/>
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="center"
+            android:text="TSBook \n Đọc sách mỗi ngày"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            style="@style/Title_Dialog"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTenNguoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
+        android:text="Xin chào !"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        style="@style/Title_Dialog"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

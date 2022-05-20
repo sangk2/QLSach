@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgSach"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="3"
+        android:src="@drawable/ic_sach"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tvTenSach"
+            android:gravity="center|left"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:text="Tên Sách"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/tvTacGia"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Tác Giả"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/tvSoTrang"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Số trang"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:id="@+id/tvKeSach"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="Kệ Sách"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

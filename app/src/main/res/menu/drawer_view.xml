@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_ThuVien"
+        android:icon="@drawable/ic_thuvien"
+        android:title="Thư viện"/>
+
+    <item
+        android:id="@+id/sub_ThongKe"
+        android:icon="@drawable/ic_thongke"
+        android:title="Thống kê"/>
+    <group>
+        <item android:title="Tài khoản">
+            <menu>
+                <item
+                    android:id="@+id/sub_QuanLyTaiKhoan"
+                    android:icon="@drawable/ic_canhan"
+                    android:title="Quản lý tài khoản"
+                    android:visible="false"/>
+
+                <item
+                    android:id="@+id/sub_DoiMatKhau"
+                    android:icon="@drawable/ic_changepass"
+                    android:title="Đổi mật khẩu"/>
+
+                <item
+                    android:id="@+id/sub_DangXuat"
+                    android:icon="@drawable/ic_dangxuat"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Thông tin">
+        <menu>
+            <item
+                android:id="@+id/sub_VeUngDung"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Về ứng dụng"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sub_Thoat"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Thoát"/>
+
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    android:paddingHorizontal="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sửa thể loại sách"
+        style="@style/Title_Dialog"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/btn_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_edit"
+        android:text="Sửa tên"
+        android:textColor="@color/black"
+        android:gravity="left|center"/>
+    <Button
+        android:id="@+id/btnDel"
+        style="@style/btn_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_delete"
+        android:text="Xóa"
+        android:textColor="@color/black"
+        android:gravity="left|center"/>
+
+</LinearLayout>
